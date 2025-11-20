@@ -118,18 +118,18 @@ python 6-fusion.py --dataset cub --backbone clip-rn50 --use_ensemble 0
 Due to GitHub’s 25 MB file size limit, all intermediate files are provided via external download links:
 
 After Step 1, you can obtain the CLIP Top-20 prediction results.
-Download here: Google Drive
+Download here: [Google Drive](https://drive.google.com/drive/folders/1xKvyzsz8CwZp1HLJO62vYKwWyszYwX5Y?usp=sharing)
 
 After Step 2, you can obtain the category descriptions
-(already included under ./category_descriptions/).
+Download here: [Google Drive](https://drive.google.com/drive/folders/1GOnaDBgCeC6hACcNCtue9cxqI7tZrXI_?usp=sharing)
 
 After Step 3, you can obtain the textual descriptions generated for each image.
-Download here: Google Drive
+Download here: [Google Drive](https://drive.google.com/drive/folders/1oYxdY5Ec1UhzOsUyDio6JS_ecHdlpdIg?usp=sharing)
 
-After the Text Reranking step, you can obtain the reranked similarity scores.
-Download here: Google Drive
+After Step 4, you can obtain the reranked similarity scores.
+Download here: [Google Drive](https://drive.google.com/drive/folders/1lRMUfiqBgJFuGz02YCD_boX-Sr5mT_xe?usp=sharing)
 
-After downloading all files from Steps 1–4, run:
+After downloading all files from Steps 1 and 4, run:
 ‘’‘
 ./scripts/6-fusion.sh
 ’‘’
