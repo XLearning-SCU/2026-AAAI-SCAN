@@ -1,0 +1,11 @@
+# configs/default.yaml
+
+dataset:
+  root: "../../dataset"  # Root directory for datasets
+  test_path: "./test_sample" # Path for test files
+
+openai:
+    api_key: "your_openai_api_key_here"
+
+model:
+  reranker: "/hdd/yutong/models/Qwen3-Reranker-8B"
