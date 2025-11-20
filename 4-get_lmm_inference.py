@@ -25,7 +25,7 @@ def get_prompt_list(data, prompt):
         new_prompt = prompt.format(top20_labels=top20_labels_str)
         prompt_list.append(new_prompt)
     print(f"Generated {len(prompt_list)} prompts.")
-    print("Example:\n",prompt_list[0])
+    #print("Example:\n",prompt_list[0])
     return prompt_list
 
 def construct_requests(clip_data,prompt_list, output_jsonl_path):
