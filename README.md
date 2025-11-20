@@ -7,18 +7,19 @@
 ------
 
 
-
-
-
-
 ## Setup Preparation
 
 - ### 1. Environment Setup
 
 ```
+git clone https://github.com/XLearning-SCU/2026-AAAI-SCAN.git
+
 conda create -n SCAN python=3.10.18
 conda activate SCAN
-
+```
+install [CLIP](https://github.com/openai/CLIP)
+install 
+```
 cd 2026-AAAI-SCAN
 pip install -r requirements.txt
 ```
