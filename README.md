@@ -113,22 +113,27 @@ The final recognition results could be obtained by the following command.
 python 6-fusion.py --dataset cub --backbone clip-rn50 --use_ensemble 0
 ```
 
+---
 
+Due to GitHub’s 25 MB file size limit, all intermediate files are provided via external download links:
 
-To reproduce  all results reported in Table 1 of the paper, you can execute the batch script:
+After Step 1, you can obtain the CLIP Top-20 prediction results.
+Download here: Google Drive
 
-```
-cd 2026-AAAI-SCAN
-./scripts/1-backbone.sh
-./scripts/2-category_descriptions.sh
-./scripts/3-get_image_features.sh
-./scripts/4-get_lmm_inference.sh
-./scripts/5-text_rerank.sh
+After Step 2, you can obtain the category descriptions
+(already included under ./category_descriptions/).
+
+After Step 3, you can obtain the textual descriptions generated for each image.
+Download here: Google Drive
+
+After the Text Reranking step, you can obtain the reranked similarity scores.
+Download here: Google Drive
+
+After downloading all files from Steps 1–4, run:
+‘’‘
 ./scripts/6-fusion.sh
-```
-
-
-
+’‘’
+to reproduce the results reported in Table 1 of the paper.
 
 
 
