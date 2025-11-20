@@ -114,6 +114,7 @@ python 6-fusion.py --dataset cub --backbone clip-rn50 --use_ensemble 0
 ```
 
 ---
+# Resource
 
 Due to GitHub’s 25 MB file size limit, all intermediate files are provided via external download links:
 
@@ -124,7 +125,7 @@ After Step 2, you can obtain the category descriptions
 Download here: [Google Drive](https://drive.google.com/drive/folders/1GOnaDBgCeC6hACcNCtue9cxqI7tZrXI_?usp=sharing)
 
 After Step 3, you can obtain the textual descriptions generated for each image.
-Download here: [Google Drive](https://drive.google.com/drive/folders/1oYxdY5Ec1UhzOsUyDio6JS_ecHdlpdIg?usp=sharing)
+Download here: [Google Drive](https://drive.google.com/drive/folders/1oYxdY5Ec1UhzOsUyDio6JS_ecHdlpdIg?usp=sharing), [huggingface](), [modelscope](https://modelscope.cn/datasets/XLearning/SCAN/files)
 
 After Step 4, you can obtain the reranked similarity scores.
 Download here: [Google Drive](https://drive.google.com/drive/folders/1lRMUfiqBgJFuGz02YCD_boX-Sr5mT_xe?usp=sharing)
@@ -134,6 +135,20 @@ After downloading all files from Steps 1 and 4, run:
 ./scripts/6-fusion.sh
 ’‘’
 to reproduce the results reported in Table 1 of the paper.
+
+
+# Bibtex
+If you find this repository helpful, please consider giving it a ⭐️ and citing our work — your support is greatly appreciated!
+
+```
+@inproceedings{ding2025visual,
+  title={Endowing Vision-Language Models with System 2 Thinking for Fine-grained Visual Recognition},
+  author={Yang, Yutong and Huang, Lifu and Lin, Yijie and Peng, Xi and Yang, Mouxing},
+  booktitle={AAAI},
+  year={2026},
+}
+```
+
 
 
 
