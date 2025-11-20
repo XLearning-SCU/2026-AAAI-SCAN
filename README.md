@@ -94,7 +94,7 @@ Then run the following commands to obtain the textual description and the initia
 
 ```
 python 3-get_image_features.py --dataset cub --lmm Qwen2.5-VL-32B
-python 4_get_lmm_inference.py --dataset cub --model clip-rn50 --use_ensemble 0 --topk 20 --lmm Qwen2.5-VL-32B
+python 4-get_lmm_inference.py --dataset cub --model clip-rn50 --use_ensemble 0 --topk 20 --lmm Qwen2.5-VL-32B
 ```
 
 ### 4. Text Rerank
