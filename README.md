@@ -125,7 +125,7 @@ After Step 2, you can obtain the category descriptions
 Download here: [Google Drive](https://drive.google.com/drive/folders/1GOnaDBgCeC6hACcNCtue9cxqI7tZrXI_?usp=sharing)
 
 After Step 3, you can obtain the textual descriptions generated for each image.
-Download here: [Google Drive](https://drive.google.com/drive/folders/1oYxdY5Ec1UhzOsUyDio6JS_ecHdlpdIg?usp=sharing), [huggingface](), [modelscope](https://modelscope.cn/datasets/XLearning/SCAN/files)
+Download here: [Google Drive](https://drive.google.com/drive/folders/1oYxdY5Ec1UhzOsUyDio6JS_ecHdlpdIg?usp=sharing),  [modelscope](https://modelscope.cn/datasets/XLearning/SCAN/files)
 
 After Step 4, you can obtain the reranked similarity scores.
 Download here: [Google Drive](https://drive.google.com/drive/folders/1lRMUfiqBgJFuGz02YCD_boX-Sr5mT_xe?usp=sharing)
