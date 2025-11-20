@@ -16,10 +16,7 @@ git clone https://github.com/XLearning-SCU/2026-AAAI-SCAN.git
 
 conda create -n SCAN python=3.10.18
 conda activate SCAN
-```
-install [CLIP](https://github.com/openai/CLIP)
-install 
-```
+
 cd 2026-AAAI-SCAN
 pip install -r requirements.txt
 ```
@@ -44,6 +41,9 @@ pip install -r requirements.txt
   ```
 
 - Run the `dataset_split.py` , and a `./test_sample` folder will be generated. This folder contains the test split for each dataset, saved in JSON format.
+```
+ python dataset_split.py
+```
 
 - ### 3. Download Modal
 
