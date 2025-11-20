@@ -1,0 +1,12 @@
+[
+  {
+    "flower": "Which category best matches the image? Choose from the following categories:{}.\nOnly the category name, no need to explain. For example, if the image is a sun flower, you should answer: sun flower.",
+    "cub": "Which category best matches the image? Choose from the following categories:{}.\nOnly the category name, no need to explain. For example, if the image is a sun flower, you should answer: sun flower.",
+    "pet": "Which category best matches the image? Choose from the following categories:{}.\nOnly the category name, no need to explain. For example, if the image is a sun flower, you should answer: sun flower.",
+    "food": "Which category best matches the image? Choose from the following categories:{}.\nOnly the category name, no need to explain. For example, if the image is a sun flower, you should answer: sun flower.",
+    "aircraft": "Which category best matches the image? Choose from the following categories:{}.\nOnly the category name, no need to explain. For example, if the image is a sun flower, you should answer: sun flower.",
+    "sun": "Which category best matches the image? Choose from the following categories:{}.\nOnly the category name, no need to explain. For example, if the image is a sun flower, you should answer: sun flower.",
+    "dog": "Which category best matches the image? Choose from the following categories:{}.\nOnly the category name, no need to explain. For example, if the image is a sun flower, you should answer: sun flower.",
+    "car": "Which category best matches the image? Choose from the following categories:{}.\nOnly the category name, no need to explain. For example, if the image is a sun flower, you should answer: sun flower."
+  }
+]
