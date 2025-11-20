@@ -142,7 +142,7 @@ alternative link: [modelscope](https://modelscope.cn/datasets/XLearning/SCAN/fil
 If you find this repository helpful, please consider giving it a ⭐️ and citing our work — your support is greatly appreciated!
 
 ```
-@inproceedings{ding2025visual,
+@inproceedings{yang2026endowing,
   title={Endowing Vision-Language Models with System 2 Thinking for Fine-grained Visual Recognition},
   author={Yang, Yutong and Huang, Lifu and Lin, Yijie and Peng, Xi and Yang, Mouxing},
   booktitle={AAAI},
