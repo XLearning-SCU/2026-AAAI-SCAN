@@ -110,7 +110,7 @@ python 5-text_rerank.py --dataset cub --backbone clip-rn50 --use_ensemble 0
 The final recognition results could be obtained by the following command.
 
 ```
-python 6_fusion.py --dataset cub --backbone clip-rn50 --use_ensemble 0
+python 6-fusion.py --dataset cub --backbone clip-rn50 --use_ensemble 0
 ```
 
 
