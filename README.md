@@ -3,6 +3,7 @@
 - ##### **Authors:** Yutong Yang, Lifu Huang, [Yijie Lin](https://lin-yijie.github.io/),  [Xi Peng](https://pengxi.me/),  [Mouxing Yang](https://mouxingyang.github.io/) <br>
 
 - **Accepted by AAAI 2026**
+- **[Paper Link](https://pengxi.me/wp-content/uploads/2025/11/SCAN.pdf)**
 
 ------
 
@@ -45,7 +46,7 @@ pip install -r requirements.txt
  python dataset_split.py
 ```
 
-- ### 3. Download Modal
+- ### 3. Download Model
 
   [Qwen2.5-VL-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-32B-Instruct), [Qwen3-Reranker-8B](https://huggingface.co/Qwen/Qwen3-Reranker-8B).
 
