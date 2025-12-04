@@ -20,6 +20,12 @@ conda activate SCAN
 
 cd 2026-AAAI-SCAN
 pip install -r requirements.txt
+
+#install CLIP
+pip install git+https://github.com/openai/CLIP.git
+
+#download and install flash-attention
+pip install flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
 ```
 
 - ### 2. Dataset Preparation
@@ -45,6 +51,7 @@ pip install -r requirements.txt
 ```
  python dataset_split.py
 ```
+Remember to modify the data_list in dataset_split.py, keeping only the datasets you need to process.
 
 - ### 3. Download Model
 
@@ -97,6 +104,7 @@ Then run the following commands to obtain the textual description and the initia
 python 3-get_image_features.py --dataset cub --lmm Qwen2.5-VL-32B
 python 4-get_lmm_inference.py --dataset cub --model clip-rn50 --use_ensemble 0 --topk 20 --lmm Qwen2.5-VL-32B
 ```
+Remember to modify the URLs in 3-get_image_features.py and 4-get_lmm_inference.py.
 
 ### 4. Text Rerank
 
