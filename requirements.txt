@@ -5,8 +5,13 @@ openai==2.8.1
 pandas==2.3.3
 Pillow==12.0.0
 PyYAML==6.0.2
-PyYAML==6.0.3
 scipy==1.16.3
 torch==2.6.0
 tqdm==4.67.1
 transformers==4.56.2
+trl==0.18.0
+sglang==0.4.6.post5
+vllm==0.8.5.post1
+transformers==4.51.3
+qwen-vl-utils==0.0.11
+qwen-omni-utils==0.0.8
