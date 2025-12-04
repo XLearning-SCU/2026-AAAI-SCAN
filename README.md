@@ -27,6 +27,7 @@ pip install git+https://github.com/openai/CLIP.git
 #download and install flash-attention
 pip install flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
 ```
+[flash-attention](https://github.com/Dao-AILab/flash-attention/releases)
 
 - ### 2. Dataset Preparation
 
